@@ -23,4 +23,7 @@ questions:
 going to try zapatos or kysely and see where it takes me
 
 probably kysely first
- 
+
+
+ todo:
+- finish docker container setup
