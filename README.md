@@ -25,5 +25,13 @@ going to try zapatos or kysely and see where it takes me
 probably kysely first
 
 
+how should we store time series data
+- after research on a bunch of fancy time serires dbs, seems like that is way overkill
+- instead we can just store the data more intelligently and instead of creating a new row if the the new row is identical to the old row, just increment a "valid to" date
+- todo: see if this is a bad idea lmoa
+
+
  todo:
 - finish docker container setup
+  - setup postgres
+  - finalize DB architecture
